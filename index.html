@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav id="navbar">
+            <h1 id="navbar-title">Hangman</h1>
+            <label class="switch">
+                <input type="checkbox" id="checkbox">
+                <span class="slider"></span>
+            </label>
+        </nav>
+
+        <div class="flex-container">            
+            <div id="hangman-container">
+                <img id="hangman-img" src="hangman-0.svg" alt="hangman-illustration">
+            </div>       
+        
+            <div id="alphabet-container">
+                <div id="word-box"></div>
+                <div id="alphabet-box"></div>
+                <div id="btn-box">
+                    <button class="btn btn-new-word">New word</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
