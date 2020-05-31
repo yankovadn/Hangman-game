@@ -42,7 +42,7 @@
     }
 
     function checkIfLost(){
-      $mistakes > 6 ? $("#alphabet-box").html("Try again").addClass("result-msg") : null;
+      $mistakes > 6 ? $("#alphabet-box").html("Correct answer: "+$answer+". Try again").addClass("result-msg") : null;
     }
 
     function refreshWord(){
